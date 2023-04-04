@@ -1,0 +1,47 @@
+/* ex 2 */
+
+.error__text{
+    display: grid;
+    font-weight: bold;
+    font-size: larger;
+}
+.error__container{
+    background: #f8f8f8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.error__avislogo{
+    max-width: 350px;
+}
+
+
+@media (max-width: 992px) {
+    .error__avislogo{
+       display: none;
+    }
+}
+/* ex 3 */
+
+.error_container{
+    height: 500px;
+}
+.error__ftext h1 {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.error__ftext p {
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.error_container .error__text{
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+@media (max-width: 992px) {
+    .error_container{
+        height: 300px;
+    }
+}
